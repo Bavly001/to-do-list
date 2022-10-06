@@ -1,0 +1,108 @@
+/*---------------------------- Global ----------------------------*/
+:root {
+     --light-grey: #f3f4ed;
+     --dark-grey-1: #424642;
+     --dark-grey-2: #536162;
+     --orange-50: #c0611480;
+     --orange: #c06014;
+     --orange-2: #85420c;
+}
+.dark-mode{
+     --light-grey: #424642;
+     --dark-grey-1: #f3f4ed;
+     --dark-grey-2: #f3f4ed;
+     --orange-50: #c0611480;
+     --orange: #c06014;
+     --orange-2: #85420c;
+     background-color: #536162;
+}
+::-webkit-scrollbar {
+     display: none;
+}
+.btn-default,
+.btn-default:focus {
+     background-color: var(--orange) !important;
+     color: var(--light-grey) !important;
+     border: none !important;
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+     background-color: var(--orange-2) !important;
+     color: var(--light-grey) !important;
+     border: none !important;
+}
+.orange {
+     color: var(--orange) !important;
+}
+.light-grey {
+     color: var(--light-grey) !important;
+}
+.dark-grey-1 {
+     color: var(--dark-grey-1) !important;
+}
+.dark-grey-2 {
+     color: var(--dark-grey-2) !important;
+}
+.dark-screen {
+     height: 100vh;
+     width: 100%;
+     position: absolute;
+     background-color: var(--dark-grey-1);
+     opacity: 0.9;
+}
+.hover-orange:hover {
+     color: var(--orange) !important;
+}
+.w-90 {
+     width: 90%;
+}
+.w-80 {
+     width: 80%;
+}
+.w-70 {
+     width: 70%;
+}
+.form-control {
+     border-color: var(--dark-grey-1) !important;
+     background-image: url("https://www.freepnglogos.com/uploads/tick-png/tick-complete-check-vector-graphic-35.png") !important;
+}
+.form-control:focus {
+     box-shadow: 0 0 0 0 !important;
+}
+.form-control:invalid {
+     border-color: var(--orange) !important;
+     background-image: url("https://www.citypng.com/public/uploads/small/11640517302ysiqropo8rqprchu5fpsqmabqycjokdg2uksbqpwxhvoal10qbbyrefn0jeornu5lmbzfo0qupxtcrponywubkzuyg7swrcthje5.png") !important;
+}
+.form-control:invalid:focus {
+     box-shadow: 0 0 4px 0.2rem var(--orange-50) !important;
+}
+.form-switch .form-check-input:focus {
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e") !important;
+}
+.form-check-input:checked {
+     background-color: var(--orange) !important;
+     border-color: var(--orange) !important;
+}
+.form-check-input:focus {
+     box-shadow: 0 0 2px 0.2rem var(--orange-50) !important;
+}
+/*---------------------------- Home ----------------------------*/
+#home #home-background {
+     background-image: url("https://www.thespruce.com/thmb/ritGMS02HXyUlRpsQWQtvrMIjc8=/4000x3000/smart/filters:no_upscale()/organizing-a-to-do-list-2648011-hero-16c4949473354d57aab32e06a7cd619e.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100vw auto;
+     background-position: center;
+     background-color: var(--dark-grey-1);
+}
+
+/*---------------------------- Header ----------------------------*/
+nav {
+     background-color: var(--dark-grey-1);
+}
+/*---------------------------- Footer ----------------------------*/
+footer {
+     background-color: var(--dark-grey-1);
+}
