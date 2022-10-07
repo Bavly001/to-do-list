@@ -11,23 +11,31 @@ The stored data:
 - Completed tasks
 - Theme mode
   
-
+---
 ## Screenshots
 
-Welcome Page:
+### Welcome Page:
   
 ![!welcome](/screenshots/welcome.png)
   
   
-Two themes:
+### Two themes:
   
 ![!1](/screenshots/1.png)
+  
 ![!2](/screenshots/2.png)
   
   
 
-How to use:
+### How to use:
   
 ![!3](/screenshots/3.png)
+  
 ![!4](/screenshots/4.png)
+  
 ![!5](/screenshots/5.png)
+
+  
+---
+  
+I hope you enjoy my simple small project and got your appreciation ... Thank you.
